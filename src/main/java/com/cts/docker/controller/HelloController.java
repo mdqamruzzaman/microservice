@@ -10,5 +10,10 @@ public class HelloController {
 	public String hi() {
 		return "Welcome to the elasticbeantalk Home Page";
 	}
+	@GetMapping(value = "/userdetails")
+	public String gotuserdetails()
+	{
+		return "User Details";
+	}
 
 }
